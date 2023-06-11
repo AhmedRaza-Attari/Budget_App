@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budgeting App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+
+  <body>
+    <div class="one">
+      <div id="setBudgetCont">
+        <h1 id="headOne">Set Monthly Budget</h1>
+        <input type="number" id="setInput" />
+        <br /><button onclick="totalBudgetFunc()" id="setBdgtbtn">
+          Set Budget
+        </button>
+      </div>
+    </div>
+    <div class="two">
+      <div id="lop">
+        <h1>Add Your Expenses</h1>
+      </div>
+      <div id="recordExpensesCont">
+        <h3>Expense Title</h3>
+        <input type="text" id="titleone" /> <br />
+        <h3>Date of Expense</h3>
+        <br />
+        <input type="date" id="dateTwo" /> <br />
+        <h3>Expense Description</h3>
+        <input type="text" id="descriptionThree" /> <br />
+        <h3>Amount</h3>
+        <br />
+        <input type="number" id="amountFour" /> <br />
+        <button id="recordExp" onclick="totalExpenseFunc()">Add</button>
+      </div>
+    </div>
+    <div id="blo">
+      <div id="expTable">
+        <table>
+          <tr>
+            <th>Expense Title</th>
+            <th>Expense Date</th>
+            <th>Expense Description</th>
+            <th>Expense Amount</th>
+            <th>Enhancement</th>
+          </tr>
+          <tr>
+            <td id="firstExpTtl"></td>
+            <td id="firstExpDate"></td>
+            <td id="firstExpDescp"></td>
+            <td id="firstExpAmount"></td>
+            <td><button id="firstBtn">X</button></td>
+          </tr>
+
+          <tr>
+            <td id="secondExpTtl"></td>
+            <td id="secondExpDate"></td>
+            <td id="secondExpDescp"></td>
+            <td id="secondExpAmount"></td>
+            <td><button id="secondBtn">X</button></td>
+          </tr>
+          <tr>
+            <td id="thirdExpTtl"></td>
+            <td id="thirdExpDate"></td>
+            <td id="thirdExpDescp"></td>
+            <td id="thirdExpAmount"></td>
+
+            <td><button id="thirdBtn">X</button></td>
+          </tr>
+          <tr>
+            <td id="fourthExpTtl"></td>
+            <td id="fourthExpDate"></td>
+            <td id="fourthExpDescp"></td>
+            <td id="fourthExpAmount"></td>
+            <td><button id="fourthBtn">X</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="overviewCont">
+      <h1 class="overViewCont">Overview Detail Screen</h1>
+      <h2>Total Budget</h2>
+      <div id="displayTb"></div>
+      <h2>Total Expenses</h2>
+      <div id="displayTe"></div>
+      <h2>Remaining Balance</h2>
+      <div id="displayRb"></div>
+    </div>
+  </body>
+</html>

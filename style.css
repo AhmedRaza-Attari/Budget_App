@@ -1,0 +1,113 @@
+body {
+  background-color: ghostwhite;
+  height: 10px;
+}
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#setBudgetCont {
+  height: 20vh;
+  width: 150vh;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border-style: double;
+  border-color: black; */
+}
+#setBdgtbtn {
+  margin-top: 10px;
+  margin-left: 890px;
+  height: 40px;
+  width: 90px;
+  color: black;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 1px 1px black;
+}
+#setBdgtbtn:hover {
+  background-color: lightskyblue;
+  color: darkblue;
+}
+#headOne {
+  margin-left: 50vh;
+}
+#setInput {
+  margin-left: 55vh;
+  font-size: 15px;
+}
+
+#lop {
+  position: relative;
+  top: 90px;
+  left: 565px;
+}
+#recordExpensesCont {
+  height: 40vh;
+  width: 180vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid black;
+}
+
+#overviewCont {
+  border-style: dashed;
+}
+
+#blo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td {
+  padding: 10px;
+}
+#expTable {
+}
+#firstBtn,
+#secondBtn,
+#thirdBtn,
+#fourthBtn {
+  border: 1px solid black;
+  border-radius: 20%;
+  box-shadow: 2px 2px black;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: salmon;
+}
+#titleone {
+  font-size: 15px;
+}
+#dateTwo {
+  font-size: 15px;
+}
+#descriptionThree {
+  font-size: 15px;
+}
+#amountFour {
+  font-size: 15px;
+}
+#recordExp {
+  height: 30px;
+  width: 50px;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 1px 1px black;
+}
+#recordExp:hover {
+  background-color: lightskyblue;
+  color: darkblue;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+}
